@@ -2,7 +2,9 @@
 # Theme: Dark, Light, Red, Blue
 
 # 제품 생성
-class UIFactory:
+class UIFactory(self):
+    def __init__(self):
+        pass
     def getButton(self):
         pass
     def getScrollBar(self):
